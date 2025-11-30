@@ -1,8 +1,8 @@
 {
-  "name": "my-portfolio",
+  "name": "Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elmellahijamal.github.io/my-portfolio",
+  "homepage": "https://elmellahijamal.github.io/Portfolio",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

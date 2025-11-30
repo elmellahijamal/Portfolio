@@ -94,9 +94,9 @@ export const projects = [
   {
     title: 'Workout Tracker',
     titleEn: 'Workout Tracker',
-    description: 'Application Web et Mobile de suivi sportif avec création et attribution de programmes d\'entraînement',
-    descriptionEn: 'Web and Mobile sports tracking application with workout program creation and assignment',
-    tech: ['.NET', 'React TypeScript', 'React Native', 'SQL Server'],
+    description: 'Application Web de suivi sportif avec création et attribution de programmes d\'entraînement',
+    descriptionEn: 'Sports tracking web application with workout program creation and assignment',
+    tech: ['.NET', 'React TypeScript', 'SQL Server'],
     type: 'Projet Personnel',
     typeEn: 'Personal Project',
     color: '#00D9FF'
@@ -170,6 +170,8 @@ export const personalInfo = {
   locationEn: 'Casablanca, Morocco',
   github: 'https://github.com/yourusername',
   linkedin: 'https://linkedin.com/in/yourprofile',
-  cvFr: '/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
-  cvEn: '/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf'
+  //cvFr: '/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
+  cvFr: 'Portfolio/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
+  //cvEn: '/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf'
+  cvEn: 'Portfolio/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf'
 };
