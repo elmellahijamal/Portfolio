@@ -170,8 +170,6 @@ export const personalInfo = {
   locationEn: 'Casablanca, Morocco',
   github: 'https://github.com/yourusername',
   linkedin: 'https://linkedin.com/in/yourprofile',
-  //cvFr: '/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
-  //cvEn: '/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf',
-  cvFr: process.env.PUBLIC_URL + '/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
-  cvEn: process.env.PUBLIC_URL + '/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf'
+  cvFr: '/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
+  cvEn: '/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf',
 };
