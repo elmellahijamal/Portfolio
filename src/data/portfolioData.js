@@ -171,7 +171,7 @@ export const personalInfo = {
   github: 'https://github.com/yourusername',
   linkedin: 'https://linkedin.com/in/yourprofile',
   //cvFr: '/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
-  cvFr: 'Portfolio/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
-  //cvEn: '/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf'
-  cvEn: 'Portfolio/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf'
+  //cvEn: '/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf',
+  cvFr: process.env.PUBLIC_URL + '/assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
+  cvEn: process.env.PUBLIC_URL + '/assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf'
 };
