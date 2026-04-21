@@ -12,12 +12,22 @@ export const experience = [
   {
     role: 'Développeur Full Stack .Net/React',
     roleEn: 'Full Stack Developer .Net/React',
-    company: 'SVB DEV',
+    company: 'BROME Consulting et Technologie',
     location: 'Casablanca, Maroc',
     locationEn: 'Casablanca, Morocco',
-    period: '03/2025 - Présent',
-    periodEn: '03/2025 - Present',
+    period: '03/2026 - Présent',
+    periodEn: '03/2026 - Present',
     current: true
+  },
+  {
+    role: 'Développeur Full Stack .Net/React',
+    roleEn: 'Full Stack Developer .Net/React',
+    company: 'SVBDEV',
+    location: 'Casablanca, Maroc',
+    locationEn: 'Casablanca, Morocco',
+    period: '03/2025 - 02/2026',
+    periodEn: '03/2025 - 02/2026',
+    current: false
   },
   {
     role: 'Stage Full Stack .NET/React JS',
