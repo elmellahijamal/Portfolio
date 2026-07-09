@@ -17,7 +17,15 @@ export const experience = [
     locationEn: 'Casablanca, Morocco',
     period: '03/2026 - Présent',
     periodEn: '03/2026 - Present',
-    current: true
+    current: true,
+    description: [
+      'Développement et maintenance des systèmes SIGMA et SIGPA pour la DGAPR, en .NET Core et SQL Server.',
+      'Développement d\'API de génération de rapports PDF, maintenance corrective et correction de bugs sur les applications existantes.'
+    ],
+    descriptionEn: [
+      'Development and maintenance of the SIGMA and SIGPA systems for the DGAPR, using .NET Core and SQL Server.',
+      'Development of PDF report-generation APIs, corrective maintenance, and bug fixes on existing applications.'
+    ]
   },
   {
     role: 'Développeur Full Stack .Net/React',
@@ -27,7 +35,15 @@ export const experience = [
     locationEn: 'Casablanca, Morocco',
     period: '03/2025 - 02/2026',
     periodEn: '03/2025 - 02/2026',
-    current: false
+    current: false,
+    description: [
+      'Maintenance et évolution du système de gestion intelligente des bâtiments ONCF Smart Building (VB.NET, ASP.NET, SQL Server).',
+      'Conception et développement d\'une application de gestion des brancardiers pour l\'hôpital canadien IUCPQ (.NET, React TypeScript).'
+    ],
+    descriptionEn: [
+      'Maintenance and evolution of the ONCF Smart Building intelligent building management system (VB.NET, ASP.NET, SQL Server).',
+      'Design and development of a patient transport (stretcher-bearer) management application for the Canadian hospital IUCPQ (.NET, React TypeScript).'
+    ]
   },
   {
     role: 'Stage Full Stack .NET/React JS',
@@ -37,7 +53,13 @@ export const experience = [
     locationEn: 'Tangier, Morocco',
     period: '09/2024 - 02/2025',
     periodEn: '09/2024 - 02/2025',
-    current: false
+    current: false,
+    description: [
+      'Conception d\'un système de gestion d\'inventaire pour le magasin d\'usine, remplaçant un suivi manuel par un flux automatisé (.NET, React JS, SQL Server).'
+    ],
+    descriptionEn: [
+      'Design of an inventory management system for the factory warehouse, replacing manual tracking with an automated workflow (.NET, React JS, SQL Server).'
+    ]
   },
   {
     role: 'Stage Frontend - Magento CMS',
@@ -178,8 +200,8 @@ export const personalInfo = {
   phone: '+212 708 287 632',
   location: 'Casablanca, Maroc',
   locationEn: 'Casablanca, Morocco',
-  github: 'https://github.com/yourusername',
-  linkedin: 'https://linkedin.com/in/yourprofile',
+  github: 'https://github.com/elmellahijamal',
+  linkedin: 'https://www.linkedin.com/in/jamal-el-mellahi/',
   cvFr: './assets/cvs/FRCVMOHAMEDJAMALELMELLAHI.pdf',
   cvEn: './assets/cvs/ENCVMOHAMEDJAMALELMELLAHI.pdf',
 };

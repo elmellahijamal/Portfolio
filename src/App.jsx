@@ -175,10 +175,12 @@ const Portfolio = () => {
                 <MapPin size={16} />
                 <span>{language === 'fr' ? exp.location : exp.locationEn}</span>
               </div>
-              {exp.description && (
-                <div className="exp-description">
-                  <p>{language === 'fr' ? exp.description : exp.descriptionEn}</p>
-                </div>
+              {exp.description && exp.description.length > 0 && (
+                <ul className="exp-description">
+                  {(language === 'fr' ? exp.description : exp.descriptionEn).map((point, pIdx) => (
+                    <li key={pIdx}>{point}</li>
+                  ))}
+                </ul>
               )}
             </div>
           ))}
@@ -337,7 +339,7 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="footer">
         <p>{t.designedBy}</p>
-        <p>© 2025 {t.allRightsReserved}</p>
+        <p>© {new Date().getFullYear()} {t.allRightsReserved}</p>
       </footer>
 
       <style jsx>{`
@@ -842,17 +844,18 @@ const Portfolio = () => {
 
         .exp-description {
           margin-top: 1rem;
-          padding: 0.75rem 1rem;
+          padding: 0.75rem 1rem 0.75rem 1.75rem;
           background: rgba(0, 217, 255, 0.05);
           border-left: 3px solid var(--primary);
           border-radius: 4px;
+          list-style: disc;
         }
 
-        .exp-description p {
+        .exp-description li {
           color: var(--light);
           line-height: 1.6;
           font-size: 0.95rem;
-          margin: 0;
+          margin: 0.35rem 0;
         }
 
         /* Education Timeline */
